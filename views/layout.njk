@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+     {% block head %}
+       <title>Caio</title>
+     {% endblock %}
+
+     <link rel="stylesheet" href="/styles.css">
+     <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1383821874107351042/chEBfvCX_400x400.jpg" type="image/x-icon">
+</head>
+
+<body>
+     <header>
+          <div class="links">
+               <a href="/">About</a>
+               <a href="/mood">Mood</a>
+          </div> 
+    </header>
+    
+{% block content %}{% endblock %}
+     
+
+</html>
